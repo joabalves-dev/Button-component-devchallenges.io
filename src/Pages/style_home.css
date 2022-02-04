@@ -1,0 +1,8 @@
+.home.grid{
+    display: grid;
+    grid-template-columns: 237px 1fr;
+}
+
+.container{
+    padding: 0 83px;
+}

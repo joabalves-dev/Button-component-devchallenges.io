@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&&family=Ubuntu+Mono:wght@400;700&display=swap');
+
+.Button {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 12px;
+}
+
+button {
+  padding: 8px 16px;
+  background: #e0e0e0;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+  border: none;
+  font-family: 'Noto Sans';
+  cursor: pointer;
+  transition: background .4s ease-in-out;
+}
+
+button:hover{
+  background:#AEAEAE;
+}
+
+button.primary{
+  background: #2962FF;
+  color: #fff;
+}
+button.primary:hover{
+  background: #0039CB;
+  color: #fff;
+}
+
+button.secundary{
+  background: #455A64;
+  color: #fff;
+}
+button.secundary:hover{
+  background: #1C313A;
+  color: #fff;
+}
+
+button.danger{
+  background: #D32F2F;
+  color: #fff;
+}
+button.danger:hover{
+  background: #9A0007;
+  color: #fff;
+}
+
+button.outline{
+  background: transparent;
+  color:#3D5AFE;
+  border: 1px solid #3D5AFE;
+  box-shadow: none;
+  transition: all .4s ease-in-out;
+}
+
+button.outline:hover, button.text:hover{
+  background: rgba(41, 98, 255, 0.1);
+}
+
+
+button.text{
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  color: #3D5AFE;
+  transition: all .4s ease-in-out;
+}
+
+button.text:hover{
+  border: none;
+}
+
+.Button code{
+    color: #333;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.Button span{
+    color: #828282;
+    font-size: 12px;
+}
+
+button:disabled{
+  color: #9E9E9E;
+}
+
+button:disabled:hover{
+  cursor: not-allowed;
+}
+
+button:disabled.text:hover{
+  background: initial;
+}
+
+
+
+.Button.icon button span{
+  font-size: 14px;
+}
+
+.Button.icon button, .Button.icon button span{
+  background: #2962FF;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

@@ -1,0 +1,5 @@
+.Buttons > .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    margin-bottom: 45px;
+}

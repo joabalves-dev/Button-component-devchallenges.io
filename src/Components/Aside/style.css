@@ -1,0 +1,38 @@
+aside{
+    display: flex;
+    flex-direction: column;
+    padding: 47px;
+    height: 100vh;
+    background: #FAFBFD;
+    color: #090F31;
+}
+
+aside .logo{
+    font-weight: bold;
+    margin-bottom: 122px;
+}
+
+aside .logo span:first-child{
+    color: #F7542E;
+}
+
+aside .nav{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+aside .nav li{
+    list-style-type: none;
+}
+
+aside .nav a{
+    display: block;
+    text-decoration: none;
+    color: #9E9E9E;
+}
+
+
+aside .nav a.ative{
+    color: #090F31;
+}
